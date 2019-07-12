@@ -3,25 +3,23 @@ import Title from "./components/Title"
 import Form from "./components/Form.js"
 import Weather from "./components/Weather"
 
-//const API_KEY = "9249475c1b86252d10ee5442fd5bc756"
+ const API_KEY = "9249475c1b86252d10ee5442fd5bc756"
 
 class App extends React.Component{
 
 state = {
-  temperature: undefined,
-  city: undefined,
-  country: undefined,
-  humidity: undefined,
-  description: undefined,
+  temperature: [],
+  city: [],
+  country: [],
+  humidity: [],
+  description: [],
 
  }
 
 
-getWeather  = async (e) => {
+ getWeather  = async (e) => {
+  e.preventDefault();
 
-e.preventDefault();
-
-const API_KEY = "9249475c1b86252d10ee5442fd5bc756"
 const city = e.target.elements.city.value
 const country = e.target.elements.city.value
 

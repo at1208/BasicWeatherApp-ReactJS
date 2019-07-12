@@ -1,0 +1,22 @@
+.d1{
+  width:240px;
+  margin-top: 50px;
+  background-color: #34ace0;
+  padding : 10px;
+
+}
+.d2{
+  font-size: 15px;
+   background-color: white;
+   padding: 5px;
+   border-radius: 5px 5px 5px 5px
+}
+.e1{
+ font-weight: bold;
+}
+.e2{
+  width: 100px;
+font-weight: bold;
+color: #e84118;
+background-color: #dcdde1;
+}
